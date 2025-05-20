@@ -80,7 +80,7 @@ body {
 }
 
 body {
-  font-family: "Jost", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", sans-serif, Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   font-style: normal;
@@ -98,7 +98,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Kalnia", serif;
+  font-family: "Times New Roman", serif;
   font-weight: 400;
   line-height: 1.3;
   margin-top: 0;
@@ -567,6 +567,14 @@ hr {
   font-size: 16px;
 }
 
+.fs-17 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 16px;
+}
+
 .px-50 {
   padding-left: 50px;
   padding-right: 50px;
@@ -596,11 +604,11 @@ hr {
 }
 
 .section-space-pt {
-  padding-top: 90px;
+  padding-top: 30px;
 }
 @media only screen and (max-width: 767px) {
   .section-space-pt {
-    padding-top: 60px;
+    padding-top: 20px;
   }
 }
 
@@ -4617,4 +4625,49 @@ hr {
   border: 1px solid #ddd;
   padding: 4px 10px;
   font-size: 15px;
+}
+
+.gradient-text {
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(to right, #2196F3, #4CAF50); /* Xanh dương -> xanh lá */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */
+}
+
+.margin-bot-30{
+  margin-bottom: 30px;
+}
+
+.title-box {
+  background-color: #2196f3; /* màu xanh dương */
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 12px 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: inline-block;
+  width: 100%; /* chiếm toàn bộ chiều ngang */
+  box-sizing: border-box; /* đảm bảo padding không làm vượt chiều rộng */
+  text-align: center;
+}
+
+.title-box1 {
+  background-color: #2196f3; /* màu xanh dương */
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 12px 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: inline-block;
+  width: 100%; /* chiếm toàn bộ chiều ngang */
+  box-sizing: border-box; /* đảm bảo padding không làm vượt chiều rộng */
+  text-align: center;
+  margin-bottom: 20px;
+}
+p {
+  text-indent: 2em; /* Thụt đầu dòng bằng 2 ký tự 'm' */
 }
