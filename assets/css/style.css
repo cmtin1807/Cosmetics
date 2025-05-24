@@ -4776,3 +4776,20 @@ p {
   -webkit-text-fill-color: transparent;
   font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */
 }
+
+.mobile-text-nav{
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(to right, #2196F3, #4CAF50); /* Xanh dương -> xanh lá */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */
+}
+.mobile-title-nav{
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(to right, #2196F3, #4CAF50); /* Xanh dương -> xanh lá */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */
+}
