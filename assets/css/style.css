@@ -913,32 +913,7 @@ hr {
 .main-menu-item.active .main-menu-link::after {
   width: 100%;
 }
-.main-menu-link {
-  display: block;
-  color: #000000;
-  padding: 30px 0px;
-  position: relative;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.18;
-  transition: all 0s ease-in-out;
-}
-.main-menu-link::before {
-  content: "";
-  position: absolute;
-  bottom: 14px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #000000;
-  transition: all 0.3s ease-in-out;
-}
-.main-menu-link:hover {
-  color: #000000;
-}
-.main-menu-link:hover::before {
-  width: 100%;
-}
+
 
 .nav-menu-white .main-menu-item.active .main-menu-link {
   color: #FFFFFF;
@@ -2223,11 +2198,7 @@ hr {
   opacity: 1;
   visibility: visible;
 }
-.product-card-old-price {
-  color: #adb5bd;
-  text-decoration: line-through;
-  margin-right: 2px;
-}
+
 .product-card-thumb {
   position: relative;
   display: block;
@@ -4670,4 +4641,98 @@ hr {
 }
 p {
   text-indent: 2em; /* Thụt đầu dòng bằng 2 ký tự 'm' */
+}
+
+.product-text {
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(to right, #2196F3, #4CAF50); /* Xanh dương -> xanh lá */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */
+}
+.product-description {
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(to right, aqua, blue); /* Xanh dương -> xanh lá */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */
+}
+.product-title {
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange); /* Xanh dương -> xanh lá */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */
+}
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange); /* Xanh dương -> xanh lá */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */
+}
+
+.product-card-old-price {
+  color: #999 ;
+  text-decoration: line-through;
+  margin-right: 2px;
+}
+
+.product-card-regular-price {
+  color: red;
+  margin-right: 2px;
+}
+.main-menu-link {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(to right, red, blue); /* Xanh dương -> xanh lá */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', sans-serif; /* hoặc font hiện đại khác */  padding: 30px 0px;
+  position: relative;
+
+  line-height: 1.18;
+  transition: all 0s ease-in-out;
+}
+.main-menu-link::before {
+  content: "";
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+.main-menu-link:hover {
+  color: #000000;
+}
+.main-menu-link:hover::before {
+  width: 100%;
+}
+
+.font-banner{
+  font-family: 'Segoe UI', sans-serif; !important;
+}
+
+.features-title {
+  background: blue;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.gradient-text1 {
+  background: linear-gradient(to right, yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
