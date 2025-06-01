@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Trang chủ -->
+    <url>
+        <loc>https://tranglebeauty.vn/</loc>
+        <lastmod>2025-06-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Giới thiệu -->
+    <url>
+        <loc>https://tranglebeauty.vn/about-us.html</loc>
+        <lastmod>2025-05-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Dịch vụ -->
+    <url>
+        <loc>https://tranglebeauty.vn/shop.html</loc>
+        <lastmod>2025-05-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Liên hệ -->
+    <url>
+        <loc>https://tranglebeauty.vn/contact-us.html</loc>
+        <lastmod>2025-05-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Bài viết / Blog -->
+    <url>
+        <loc>https://tranglebeauty.vn/blog.html</loc>
+        <lastmod>2025-05-29</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Trang sản phẩm hoặc booking (nếu có) -->
+    <url>
+        <loc>https://tranglebeauty.vn/blog-details1.html</loc>
+        <lastmod>2025-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://tranglebeauty.vn/blog-details2.html</loc>
+        <lastmod>2025-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://tranglebeauty.vn/blog-details3.html</loc>
+        <lastmod>2025-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://tranglebeauty.vn/blog-details4.html</loc>
+        <lastmod>2025-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://tranglebeauty.vn/blog-details5.html</loc>
+        <lastmod>2025-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://tranglebeauty.vn/blog-details6.html</loc>
+        <lastmod>2025-05-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+</urlset>
